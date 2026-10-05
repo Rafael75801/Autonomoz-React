@@ -1,9 +1,13 @@
 import './Sidebar.css'
 
 // IMPORT FUNÇÃO REACT-ROUTER-DOM
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink, Link, useNavigate } from 'react-router-dom'
 
 function Aside({mostrarBotao}) {
+    const navigate = useNavigate()
+
+    function handleSair() {navigate('/login')}
+
     return(
         <aside className="col-md-3 col-lg-2 bg-white border-end min-vh-100 p-3 d-flex flex-column justify-content-between">
             <div>
@@ -42,7 +46,7 @@ function Aside({mostrarBotao}) {
             )}
 
             <div className="border-top pt-3">
-                <button className="btn btn-link nav-link small text-danger p-0 px-2 m-auto"><i className="bi bi-box-arrow-right me-2"></i> Sair do Sistema</button>
+                <button onClick={handleSair} className="btn btn-link nav-link small text-danger p-0 px-2 m-auto"><i className="bi bi-box-arrow-right me-2"></i> Sair do Sistema</button>
             </div>
         </aside>
     )
