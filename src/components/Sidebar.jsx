@@ -29,7 +29,7 @@ function Aside({mostrarBotao}) {
                         <NavLink to="/fornecedores" className="nav-link rounded-3 px-3 py-2"><i className="bi bi-truck me-2"></i>Fornecedores</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/produtos" className="nav-link rounded-3 px-3 py-2"><i className="bi bi-plus me-2"></i>Cadastrar Item</NavLink>
+                        <NavLink to="/produtos" className="nav-link rounded-3 px-3 py-2"><i className="bi bi-plus-circle me-2"></i>Cadastrar Item</NavLink>
                     </li>
                 </ul>
             </div>
