@@ -1,8 +1,8 @@
 const tipos = {
     ENTRADA: {
         label: "ENTRADA",
-        badge: "bg-sucess-subtle text-sucess",
-        qtd: "text-sucess",
+        badge: "bg-success-subtle text-success",
+        qtd: "text-success",
         sinal: "+"
     },
     SAIDA: {
@@ -14,7 +14,7 @@ const tipos = {
     AJUSTE: {
         label: "AJUSTE",
         badge: "bg-warning-subtle text-dark",
-        qtd: "",
+        qtd: "text-warning",
         sinal: ""
     }
 }
