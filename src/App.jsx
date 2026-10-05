@@ -8,7 +8,7 @@ import Dashboard from './pages/Dashboard'
 import Inventario from './pages/Inventario'
 import Movimentacoes from './pages/Movimentacoes'
 import Fornecedores from './pages/Fornecedores'
-// import ProdutosCadastrados from './pages/ProdutosCadastrados'
+import ProdutosCadastrados from './pages/ProdutosCadastrados'
 
 function Layout() {
   const location = useLocation()
@@ -25,7 +25,7 @@ function Layout() {
           <Route path='/inventario' element={<Inventario />}        />
           <Route path='/movimentacoes' element={<Movimentacoes />}  />
           <Route path='/fornecedores' element={<Fornecedores />}    />
-          {/* <Route path='/produtos' element={<ProdutosCadastrados />} /> */}
+          <Route path='/produtos' element={<ProdutosCadastrados />} />
 
         </Routes>
       </div>
