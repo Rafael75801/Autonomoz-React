@@ -40,7 +40,7 @@ function CadastroForm({ onIrParaLogin }) {
                 <label htmlFor="cad-nome" className="form-label fw-bold small text-muted">NOME COMPLETO</label>
                 <div className="input-group">
                     <span className="input-group-text bg-white text-muted">
-                        <i className="fa-solid fa-user"></i>
+                        <i className="bi bi-person"></i>
                     </span>
                     <input
                         type="text"
@@ -58,7 +58,7 @@ function CadastroForm({ onIrParaLogin }) {
                 <label htmlFor="cad-cpf" className="form-label fw-bold small text-muted">CPF</label>
                 <div className="input-group">
                     <span className="input-group-text bg-white text-muted">
-                        <i className="fa-solid fa-id-card"></i>
+                        <i className="bi bi-person-bounding-box"></i>
                     </span>
                     <input
                         type="text"
@@ -77,7 +77,7 @@ function CadastroForm({ onIrParaLogin }) {
                 <label htmlFor="cad-email" className="form-label fw-bold small text-muted">EMAIL</label>
                 <div className="input-group">
                     <span className="input-group-text bg-white text-muted">
-                        <i className="fa-solid fa-at"></i>
+                        <i className="bi bi-at"></i>
                     </span>
                     <input
                         type="email"

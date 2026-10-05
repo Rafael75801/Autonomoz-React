@@ -30,7 +30,7 @@ function LoginForm({ onIrParaCadastro }) {
                 <label htmlFor="login-email" className="form-label fw-bold small text-muted">EMAIL</label>
                 <div className="input-group">
                     <span className="input-group-text bg-white text-muted">
-                        <i className="fa-solid fa-at"></i>
+                        <i className="bi bi-at"></i>
                     </span>
                     <input
                         type="email"
@@ -56,7 +56,7 @@ function LoginForm({ onIrParaCadastro }) {
             />
 
             <button type="submit" className="btn btn-danger w-100 fw-bold py-2 rounded-3">
-                Iniciar Sessão <i className="fa-solid fa-arrow-right ms-1"></i>
+                Iniciar Sessão <i className="bi bi-arrow-right ms-1"></i>
             </button>
 
             <div className="text-center mt-3">

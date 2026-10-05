@@ -12,7 +12,7 @@ function CampoSenha({ id, label = 'SENHA', value, onChange, placeholder = 'Sua s
 
             <div className="input-group">
                 <span className="input-group-text bg-white text-muted">
-                    <i className="fa-solid fa-lock"></i>
+                    <i className="bi bi-lock"></i>
                 </span>
                 <input
                     type={mostrar ? 'text' : 'password'}
@@ -29,7 +29,7 @@ function CampoSenha({ id, label = 'SENHA', value, onChange, placeholder = 'Sua s
                     onClick={() => setMostrar((atual) => !atual)}
                     aria-label={mostrar ? 'Ocultar senha' : 'Mostrar senha'}
                 >
-                    <i className={`fa-solid ${mostrar ? 'fa-eye-slash' : 'fa-eye'}`}></i>
+                    <i className={`bi ${mostrar ? 'bi-eye-slash' : 'bi-eye'}`}></i>
                 </button>
             </div>
         </div>
