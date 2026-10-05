@@ -37,7 +37,7 @@ function Fornecedores() {
                     </div>
 
                     <button className="btn btn-danger fw-bold rounded-3" onClick={() => alert('Novo fornecedor')}>
-                        <i className="bi bi-plus-lg me- 1"></i>Cadastrar Fornecedor
+                        <i className="bi bi-plus-lg me- 1"></i> Cadastrar Fornecedor
                     </button>
                 </div>
 
