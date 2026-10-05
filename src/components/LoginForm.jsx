@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 import SeletorPerfil from './SeletorPerfil.jsx'
-import CampoSenha from './CampoSenha.jsx'
+import CampoSenha from './CampoSenha'
 
 function LoginForm({ onIrParaCadastro }) {
     const navigate = useNavigate()
