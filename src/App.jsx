@@ -7,7 +7,7 @@ import Sidebar from './components/Sidebar'
 import Dashboard from './pages/Dashboard'
 import Inventario from './pages/Inventario'
 import Movimentacoes from './pages/Movimentacoes'
-// import Fornecedores from './pages/Fornecedores'
+import Fornecedores from './pages/Fornecedores'
 // import ProdutosCadastrados from './pages/ProdutosCadastrados'
 
 function Layout() {
@@ -24,7 +24,7 @@ function Layout() {
           <Route path='/'element={<Dashboard />}                    />
           <Route path='/inventario' element={<Inventario />}        />
           <Route path='/movimentacoes' element={<Movimentacoes />}  />
-          {/* <Route path='/fornecedores' element={<Fornecedores />}    /> */}
+          <Route path='/fornecedores' element={<Fornecedores />}    />
           {/* <Route path='/produtos' element={<ProdutosCadastrados />} /> */}
 
         </Routes>
