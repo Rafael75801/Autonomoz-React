@@ -1,0 +1,11 @@
+:root {
+    --bs-primary: #C0001A !important;
+    --bs-primary-rgb: 192, 0, 26 !important;
+    --bs-danger: #C0001A !important;
+    --bs-danger-rgb: 192, 0, 26 !important;
+    --bs-link-color: #C0001A !important;
+    --bs-link-hover-color: #9E0015 !important;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #f8f9fa; color: #212529; font-family: 'Inter', system-ui, -apple-system, sans-serif; }
